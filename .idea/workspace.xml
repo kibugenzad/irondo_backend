@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1e4c9ed-e142-453c-9a4b-1202f7b8af92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f1e4c9ed-e142-453c-9a4b-1202f7b8af92" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="218">
+              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -46,11 +44,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SectorsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/SectorsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="sectors.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/sectors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="28" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -78,6 +86,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/controllers/LoginController.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/controllers/SectorsController.js" />
         <option value="$PROJECT_DIR$/models/sectors.js" />
       </list>
     </option>
@@ -176,10 +185,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/package.json&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/models/sectors.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/controllers/LoginController.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/index.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/controllers/RegisterController.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/package.json&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/models/sectors.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/controllers/LoginController.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/index.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/controllers/RegisterController.js&#10;/Users/limitlessapps/Documents/Projects/I/irondo_backend/controllers/SectorsController.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controllers" />
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
@@ -205,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525849528335</updated>
-      <workItem from="1525849534372" duration="4263000" />
+      <workItem from="1525849534372" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4263000" />
+    <option name="totallyTimeSpent" value="4999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1266" height="829" extended-state="0" />
@@ -271,14 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/LoginController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -287,10 +289,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SectorsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/sectors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="176">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
