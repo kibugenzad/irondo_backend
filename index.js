@@ -19,7 +19,7 @@ app.use(fileUpload());
 app.use('/public', express.static(__dirname + '/public'));
 
 //connect mongodb
-mongoose.connect("mongodb://scores:scores250@ds251889.mlab.com:51889/heroku_kv76gsfx");
+mongoose.connect("mongodb://irondo:Irondo@250@ds023442.mlab.com:23442/heroku_23sdkrhn\n");
 mongoose.Promise = global.Promise;
 
 app.use(function(req, res, next) {
@@ -32,7 +32,6 @@ app.use(function(req, res, next) {
 //initialise routes
 app.use("/api", require("./controllers/LoginController"));
 app.use("/api", require("./controllers/RegisterController"));
-app.use("/api", require("./controllers/CreditScoresController"));
 
 //error handling
 app.use(function (err, req, res, next) {
