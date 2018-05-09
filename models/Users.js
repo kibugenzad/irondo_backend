@@ -3,6 +3,14 @@ const Schema = mongoose.Schema;
 const validator = require("validator");
 const bcrypt = require('bcrypt'),SALT_WORK_FACTOR = 10;
 
+const permissions = new Schema({
+    access: {
+        type: String,
+        required: [true, "Please specify your permission"],
+        default: 'Read Only'
+    }
+})
+
 const UserSchema = new Schema({
     firstname:{
         type: String,
@@ -35,6 +43,17 @@ const UserSchema = new Schema({
     profile_image:{
         type: String,
         default:'https://image.flaticon.com/icons/svg/747/747545.svg'
+    },
+    permission: permissions,
+    sector: {
+        type: [{ type: Schema.Types.ObjectId, ref: 'Sector' }],
+        required: [true, "Please choose a Sector"]
+    },
+    cell: {
+        type: [{ type: Schema.Types.ObjectId, ref: 'Cells' }],
+    },
+    village: {
+        type: [{ type: Schema.Types.ObjectId, ref: 'Villages' }],
     },
     timestamps: {
         type : Date,

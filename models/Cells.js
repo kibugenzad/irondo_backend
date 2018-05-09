@@ -1,16 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const SectorsSchema = new Schema({
-    district:{
-        type: String
-    },
-    province:{
-        type: String
-    },
+const CellsSchema = new Schema({
     sector:{
-        type: String,
+        type: [{ type: Schema.Types.ObjectId, ref: 'sectors' }],
         required: [true, "Sector must not be empty"]
+    },
+    cell:{
+        type: String,
+        required: [true, "Cell must not be empty"]
     },
     timestamps: {
         type : Date,
@@ -18,7 +16,7 @@ const SectorsSchema = new Schema({
     }
 });
 
-const Sectors = mongoose.model("Sectors", SectorsSchema);
+const Cells = mongoose.model("Cells", CellsSchema);
 
-module.exports = Sectors
+module.exports = Cells
 
