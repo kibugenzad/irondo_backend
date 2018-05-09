@@ -33,6 +33,8 @@ app.use(function(req, res, next) {
 app.use("/api", require("./controllers/LoginController"));
 app.use("/api", require("./controllers/RegisterController"));
 app.use("/api", require("./controllers/SectorsController"));
+app.use("/api", require("./controllers/CellsController"));
+app.use("/api", require("./controllers/VillagesController"));
 
 //error handling
 app.use(function (err, req, res, next) {
