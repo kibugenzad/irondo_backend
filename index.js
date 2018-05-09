@@ -32,6 +32,7 @@ app.use(function(req, res, next) {
 //initialise routes
 app.use("/api", require("./controllers/LoginController"));
 app.use("/api", require("./controllers/RegisterController"));
+app.use("/api", require("./controllers/SectorsController"));
 
 //error handling
 app.use(function (err, req, res, next) {
