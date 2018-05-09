@@ -19,7 +19,7 @@ app.use(fileUpload());
 app.use('/public', express.static(__dirname + '/public'));
 
 //connect mongodb
-mongoose.connect("mongodb://irondo:Irondo@250@ds023442.mlab.com:23442/heroku_23sdkrhn\n");
+mongoose.connect("mongodb://irondo:Irondo250@ds023442.mlab.com:23442/heroku_23sdkrhn");
 mongoose.Promise = global.Promise;
 
 app.use(function(req, res, next) {
