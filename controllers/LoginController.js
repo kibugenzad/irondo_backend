@@ -56,7 +56,7 @@ app.post("/login", function (req, res, next) {
                     return res.status(200).json({success: isMatch, user_key: user._id, email: user.email, fullname: user.firstname+" "+user.lastname, profile_image: user.profile_image})
                 });
             }else{
-                return res.status(400).json({status: 'The account is not found, please create new, or try another'})
+                return res.status(400).json({status: 'This account is not found'})
             }
         }).catch(next);
     }
